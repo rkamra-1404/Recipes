@@ -1,5 +1,5 @@
 ### Summary:
-The Recipes app is a SwiftUI-based iOS application that fetches a list of recipes from a remote JSON endpoint, displays them in a scrollable list, and allows users to view details and thumbnail images efficiently. Key features include:
+The Recipes app is a SwiftUI-based iOS application that fetches a list of recipes from a remote JSON endpoint, displays them in a scrollable list, and allows users to search recipes and sort them efficiently. Key features include:
 
 - Async data loading with Combine & async/await
 
@@ -47,6 +47,8 @@ These were chosen to reflect real-world app scalability, performance optimizatio
 - Didn't implement pagination or offline mode, to stay focused on core architecture.
 
 - Limited visual customizations to spend more time on testability and clean code separation
+
+- Didn't implement the detail page showing further details of recipe due to time constraints
 
 ### Weakest Part of the Project
 - Image cache disk tests needed artificial delay to simulate I/O timing, which isn’t ideal

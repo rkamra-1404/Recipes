@@ -1,3 +1,5 @@
+#FetchRecipe App (Take Home Assignment)
+
 ### Summary:
 The Recipes app is a SwiftUI-based iOS application that fetches a list of recipes from a remote JSON endpoint, displays them in a scrollable list, and allows users to search recipes and sort them efficiently. Key features include:
 
